@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two|Open+Sans|ZCOOL+KuaiLe');
+
+
+body
+{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f2f2f2;
+  
+}
+.container h1{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    width:100%;
+    text-align: center;
+    color:#e65100;
+
+}
+.container{
+  margin:10%;
+}
+ol li{
+  list-style: none;
+
+}
+ol li{
+  padding: 30px;
+  color:#40c4ff ;
+  font-size:1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  background-color: #212121;
+
+}
+
+form{
+  padding-left:6%;
+  width:100%;
+}
+label{
+  width:200%;
+  display: inline-block;
+  color:#40c4ff ;
+  font-weight: bold;
+  font-size: 1.3rem;
+
+}
+input[type=text],input[type=number]{
+  width:150px;
+  height:30px;
+  border:1px solid hsl(180, 7%, 3%) ;
+  border-radius:5px;
+  padding: 0 20px;;
+
+}
+.submit_button{
+margin-top:20px;
+  width:100%;
+  padding-left: 30%;
+}
+input[type=submit]{
+  background-color: #40c4ff;
+  border:1px solid black ;
+  border-radius:5px;
+  color:#ffffff;
+  padding:10px;
+  width:200px;
+  font-weight:bold;
+  text-transform: uppercase;
+  
+}
+input[type=submit]:hover{
+  cursor:pointer;
+  background-color: #c2185b;
+}
