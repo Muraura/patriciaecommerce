@@ -12,7 +12,7 @@ Class Friends extends MX_Controller {
     {
          
             $v_data["all_friends"]=$this->friends_model->get_friends();
-    
+    //$data makes the last link as titlt
             $data = array("title" =>$this->site_model->display_page_title(),
             "content" =>$this->load->view("friends/all_friends",$v_data, TRUE)
         

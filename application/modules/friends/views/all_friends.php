@@ -63,7 +63,7 @@
                         <?php echo $image;?>
                  </td>
                  <td>
-                      <?php echo anchor("friends/friends/welcome/".$id,"View","class='btn btn-primary'");?>
+                      <?php echo anchor("friends/friends/welcome/","View","class='btn btn-primary'");?>
                       <?php echo anchor("friends/friends/delete_friend/".$id,"Delete","class='btn btn-danger'");?>
                       <?php echo anchor("friends/friends/edit/".$id,"Edit","class='btn btn-secondary'");?>
                       <?php echo anchor("friends/friends/welcome/".$id,"Activate","class='btn btn-success'");?>
